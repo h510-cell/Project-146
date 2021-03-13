@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+  </head>
+  <body>
+   <a-scene background ="color:#fff"></a-scene>
+
+   <!--Head-->
+   <a-entity>
+    <a-rectangle position="2 4 0.3" rotation="0 0 0 " color="blue"></a-box>
+   </a-entity>
+
+   <!--eyes-->
+   <a-entity>
+    <a-shpere
+    color="green"
+    radius="1.75"
+    position="3 4 0.3"
+    animation="property:position;from:3 4 0.3 ;to:3 4.5 0.3;dir:alternate;loop:true;dur:1000"
+    >
+    </a-shpere>
+
+    <a-shpere
+    color="green"
+    radius="1.75"
+    position="3.5 4 0.3"
+    animation="property:position;from:3.5 4 0.3 ;to:3.5 4.5 0.3;dir:alternate;loop:true;dur:1000"
+    >
+    </a-shpere>
+   </a-entity>
+   
+   <!--Neck-->
+   <a-entity>
+    <a-cylinder position="5 6 0.5" radius="1.5" color="yellow"></a-cylinder>
+   </a-entity>
+
+   <!--Body-->
+   <a-entity>
+    <a-box position="2 8 0.3" rotation="0 0 0" color="red"></a-box>
+   </a-entity>
+
+   <!--legs-->
+   <a-entity>
+    <a-cylinder position="4 10 0.5" radius="1.5" color="yellow"></a-cylinder>
+   </a-entity>
+
+   <a-entity>
+    <a-cylinder position="7 10 0.5" radius="1.5" color="yellow"></a-cylinder>
+   </a-entity>
+
+   <!--feet-->
+   <a-entity>
+    <a-sphere position="4 12 0.5" radius="1.25" color="orange"></a-sphere>
+   </a-entity>
+
+   <!--Hands-->
+   <a-entity>
+    <a-cylinder position="1 7 0.3" radius="1.5" color="golden"></a-cylinder>
+   </a-entity>
+
+   <a-entity>
+    <a-cylinder position="6 7 0.3" radius="1.5" color="golden"></a-cylinder>
+   </a-entity>
+
+   <!--palms-->
+   <a-entity>
+    <a-sphere position="0.8 7 0.3" radius="1.25" color="purple"></a-sphere>
+   </a-entity>
+
+   <a-entity>
+    <a-sphere position="6.5 7 0.3" radius="1.25" color="purple"></a-sphere>
+   </a-entity>
+  </body>
+</html>
